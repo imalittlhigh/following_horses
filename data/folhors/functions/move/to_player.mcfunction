@@ -19,4 +19,6 @@ execute run data modify entity @e[limit=1,sort=nearest,distance=..1,tag=folhors.
 execute run data modify entity @e[limit=1,sort=nearest,distance=..1,tag=folhors.trader.ai] WanderTarget.Z set from entity @p[tag=folhors.player.pos] Pos[2]
 tag @a remove folhors.player.pos
 
+effect give @s resistance 1 255 true
+
 schedule function folhors:move/delay 1t replace
