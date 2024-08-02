@@ -12,3 +12,5 @@ execute store result storage folhors:data pos.z int 1 run scoreboard players get
 
 
 function folhors:call/move with storage folhors:data pos
+
+schedule function folhors:call/move_sc 5t

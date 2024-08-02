@@ -1,23 +1,23 @@
 {
     "display": {
         "title": {
-            "text": "Following Horses"
+            "text": "littlhigh Datapacks"
         },
         "description": {
-            "text": "https://www.planetminecraft.com/data-pack/following-horses-tamed-horses-follow-you-around/"
+            "text": "Seems like there are some of my Datapacks in this world =)"
         },
         "icon": {
-            "item": "minecraft:saddle"
+            "id": "minecraft:wheat"
         },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
-        "hidden": false
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png"
     },
     "criteria": {
         "1": {
             "trigger": "minecraft:tick"
         }
-    },
-    "parent": "imalittlhigh:root"
+    }
 }
