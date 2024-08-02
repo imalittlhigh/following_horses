@@ -4,6 +4,8 @@
  #
  # Created by imalittlhigh.
 ##
+
+
 tp @s ^ ^ ^-1
 tp @s ~ -500 ~
 kill @s

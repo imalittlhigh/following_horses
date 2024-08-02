@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Following Horses"
+        },
+        "description": {
+            "text": "https://www.planetminecraft.com/data-pack/following-horses-tamed-horses-follow-you-around/"
+        },
+        "icon": {
+            "id": "minecraft:saddle"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "imalittlhigh:root"
+}
